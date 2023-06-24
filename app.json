@@ -5,7 +5,12 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "caf9d1c4-bca0-4acf-bbbc-72db34151e19"
+      }
+    }
   },
   "name": "InovaMedika"
 }

@@ -65,4 +65,13 @@ public class MainActivity extends ReactActivity {
     // because it's doing more than {@link Activity#moveTaskToBack} in fact.
     super.invokeDefaultOnBackPressed();
   }
+  @override
+protected List<ReactPackage> getPackages(){
+
+    ...
+    packages.add(new com.swmansion.rnscreens.RNScreensPackage());
+    // packages.add(new com.swmansion.gesturehandler.RNGestureHandlerPackage());
+    packages.add(new com.th3rdwave.safeareacontext.SafeAreaContextPackage());
+    packages.add(new com.swmansion.reanimated.ReanimatedPackage());
+  }
 }

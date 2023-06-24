@@ -1,0 +1,21 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/AlongSansExtraBold.otf",
+      "sha1": "7566098c55f1337d14081d22cf9fcccee67fb6b6"
+    },
+    {
+      "path": "src/assets/fonts/AlongSansMedium.otf",
+      "sha1": "60b0c0da654c117e8c2cb38f9c3ab4428570b4fe"
+    },
+    {
+      "path": "src/assets/fonts/AlongSansRegular.otf",
+      "sha1": "5fcefa87d30f824d15cf22d1aa97dcf871e51f7d"
+    },
+    {
+      "path": "src/assets/fonts/AlongSansSemiBold.otf",
+      "sha1": "050ddc651c429a2661570d297656cafce84cfddb"
+    }
+  ]
+}
