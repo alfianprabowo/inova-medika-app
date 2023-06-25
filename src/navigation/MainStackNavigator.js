@@ -18,7 +18,7 @@ export default function MainStackNavigator() {
     return (
         <NavigationContainer>
             <Stack.Navigator
-                initialRouteName={RouteConst.HOME}
+                initialRouteName={RouteConst.LOGIN}
                 screenOptions={{
                     gestureEnabled: true,
                     headerStyle: {
