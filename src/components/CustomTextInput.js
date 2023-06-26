@@ -1,8 +1,8 @@
 import { StyleSheet, TextInput } from "react-native";
 
-export default function CustomTextInput(params) {
+export default function CustomTextInput({ multiline, numberOfLines }) {
     return (
-        <TextInput style={styles.input}>
+        <TextInput style={styles.input} multiline={multiline ? true : false} numberOfLines={numberOfLines}>
 
 
         </TextInput>
@@ -11,13 +11,13 @@ export default function CustomTextInput(params) {
 
 const styles = StyleSheet.create({
     input: {
-        // borderBottomWidth: 0.5,
-        height: 48,
-        // borderBottomColor: "#8e93a1",
+        // height: 48,
+        minHeight: 40,
         marginTop: 4,
-        marginBottom: 24,
+        marginBottom: 16,
         borderColor: "#04CC89",
         borderWidth: 1,
         borderRadius: 10,
+
     }
 });

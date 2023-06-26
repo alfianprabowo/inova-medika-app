@@ -1,11 +1,14 @@
+import React from "react";
 import { StyleSheet, View } from "react-native";
 
-export default function ReservationHistoryList(params) {
-    return (
-        <View>
+export default class ReservationHistoryList extends React.PureComponent {
+    render() {
+        return (
+            <View>
 
-        </View>
-    )
+            </View>
+        )
+    }
 };
 
 const styles = StyleSheet.create({

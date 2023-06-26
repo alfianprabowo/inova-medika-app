@@ -6,10 +6,8 @@ import HomePage from '../pages/Home/HomePage'
 import LoginPage from '../pages/LoginPage'
 import SignUpPage from '../pages/SignUpPage'
 import DoctorSchedulePage from '../pages/DoctorSchedule/DoctorSchedulePage'
-import MedicalHistoryPage from '../pages/History/MedicalHistoryPage'
 import ProfilePage from '../pages/Settings/ProfilePage'
 import ReservationPage from '../pages/Home/ReservationPage'
-import ReservationHistoryPage from '../pages/History/ReservationHistoryPage'
 import SettingsPage from '../pages/Settings/SettingsPage'
 
 const Stack = createNativeStackNavigator()
@@ -61,12 +59,6 @@ export default function MainStackNavigator() {
                 />
 
                 <Stack.Screen
-                    name={RouteConst.MEDICALHISTORY}
-                    component={MedicalHistoryPage}
-                // options={{ title: 'Settings' }}
-                />
-
-                <Stack.Screen
                     name={RouteConst.PROFILE}
                     component={ProfilePage}
                 // options={{ title: 'Settings' }}
@@ -78,11 +70,6 @@ export default function MainStackNavigator() {
                 // options={{ title: 'Settings' }}
                 />
 
-                <Stack.Screen
-                    name={RouteConst.RESERVATIONHISTORY}
-                    component={ReservationHistoryPage}
-                // options={{ title: 'Settings' }}
-                />
 
                 <Stack.Screen
                     name={RouteConst.SETTINGS}
