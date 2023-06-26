@@ -18,6 +18,8 @@
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		B928F677D9614F38BB066349 /* AlongSansExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7F780F36D8FE4D7F9DD8D1E1 /* AlongSansExtraBold.otf */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		CB92E25A1890440EB6317977 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CA4352C8929147318A70134B /* logo.png */; };
+		C3A1C974CA4546A487F5AE7B /* Profile.png in Resources */ = {isa = PBXBuildFile; fileRef = DB8DB133EA934EF4A0EC4D41 /* Profile.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		EB8D21AAAB04465BA15E6AC5 /* AlongSansSemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = AlongSansSemiBold.otf; path = ../src/assets/fonts/AlongSansSemiBold.otf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-InovaMedika/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		CA4352C8929147318A70134B /* logo.png */ = {isa = PBXFileReference; name = "logo.png"; path = "../src/assets/images/logo.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DB8DB133EA934EF4A0EC4D41 /* Profile.png */ = {isa = PBXFileReference; name = "Profile.png"; path = "../src/assets/images/Profile.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 				7F780F36D8FE4D7F9DD8D1E1 /* AlongSansExtraBold.otf */,
 				75FE5A3B70F442009ED1404D /* AlongSansMedium.otf */,
 				8174B33770884D1E962EEA8F /* AlongSansRegular.otf */,
+				CA4352C8929147318A70134B /* logo.png */,
+				DB8DB133EA934EF4A0EC4D41 /* Profile.png */,
 			);
 			name = Resources;
 			path = "";
@@ -222,6 +228,8 @@
 				B928F677D9614F38BB066349 /* AlongSansExtraBold.otf in Resources */,
 				6EC42387713C4877A8A56EB4 /* AlongSansMedium.otf in Resources */,
 				2784E931ECCF4FE8A829E0BD /* AlongSansRegular.otf in Resources */,
+				CB92E25A1890440EB6317977 /* logo.png in Resources */,
+				C3A1C974CA4546A487F5AE7B /* Profile.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

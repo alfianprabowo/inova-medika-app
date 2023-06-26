@@ -11,9 +11,13 @@ export default function CustomTextInput(params) {
 
 const styles = StyleSheet.create({
     input: {
-        borderBottomWidth: 0.5,
+        // borderBottomWidth: 0.5,
         height: 48,
-        borderBottomColor: "#8e93a1",
+        // borderBottomColor: "#8e93a1",
+        marginTop: 4,
         marginBottom: 24,
+        borderColor: "#04CC89",
+        borderWidth: 1,
+        borderRadius: 10,
     }
 });

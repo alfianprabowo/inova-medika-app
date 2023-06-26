@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from "react-native"
+import { SafeAreaView, StyleSheet, Text, View } from "react-native"
 import TextConst from "../utils/consts/TextConst"
 import CustomTextInput from "../components/CustomTextInput"
 import PrimaryButton from "../components/buttons/PrimaryButton"
@@ -6,30 +6,34 @@ import SecondaryButton from "../components/buttons/SecondaryButton"
 import TitleText from "../components/Text/TitleText"
 import RouteConst from "../utils/consts/RouteConst"
 import LabelText from "../components/Text/LabelText"
+import TextButton from "../components/buttons/TextButton"
 
 export default function SignUpPage({ navigation }) {
     return (
-        <View style={styles.container}>
-            <TitleText text={TextConst.SIGNUP}></TitleText>
+        <SafeAreaView>
 
-            <LabelText text={TextConst.NAME}></LabelText>
-            <CustomTextInput />
+            <View style={styles.container}>
+                <TitleText text={TextConst.SIGNUP}></TitleText>
 
-            <LabelText text={TextConst.PHONE}></LabelText>
-            <CustomTextInput />
+                <LabelText text={TextConst.NAME}></LabelText>
+                <CustomTextInput />
 
-            <LabelText text={TextConst.EMAIL}></LabelText>
-            <CustomTextInput />
+                <LabelText text={TextConst.PHONE}></LabelText>
+                <CustomTextInput />
 
-            <Text>{TextConst.PASSWORD}</Text>
-            <CustomTextInput />
+                <LabelText text={TextConst.EMAIL}></LabelText>
+                <CustomTextInput />
 
-            <PrimaryButton text={TextConst.CREATE_ACCOUNT} onPress={{}}>
-            </PrimaryButton>
+                <Text>{TextConst.PASSWORD}</Text>
+                <CustomTextInput />
 
-            <SecondaryButton text={TextConst.CANCEL} onPress={() => navigation.goBack()}>
-            </SecondaryButton>
-        </View>
+                <PrimaryButton text={TextConst.CREATE_ACCOUNT} onPress={() => { }}>
+                </PrimaryButton>
+
+                <TextButton text={TextConst.CANCEL} onPress={() => navigation.goBack()}>
+                </TextButton>
+            </View>
+        </SafeAreaView>
     )
 };
 

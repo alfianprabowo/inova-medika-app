@@ -1,6 +1,6 @@
 import { StyleSheet, View } from "react-native";
 
-export default function ReservationHistoryList(params) {
+export default function DoctorDetail(params) {
     return (
         <View>
 

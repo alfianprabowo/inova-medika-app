@@ -1,3 +1,5 @@
+import { StyleSheet, View } from "react-native";
+
 export default function MedicalHistoryPage(params) {
     return (
         <View>
@@ -5,3 +7,7 @@ export default function MedicalHistoryPage(params) {
         </View>
     )
 };
+
+const styles = StyleSheet.create({
+
+});

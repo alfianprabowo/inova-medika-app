@@ -1,6 +1,6 @@
-import { TouchableOpacity, StyleSheet, } from "react-native";
+import { TouchableOpacity, StyleSheet, Text } from "react-native";
 
-export default function TextButton(params) {
+export default function TextButton({ onPress, text }) {
     return (
         <TouchableOpacity style={styles.buttonStyle} onPress={onPress}>
             <Text style={styles.textStyle}>
@@ -13,7 +13,6 @@ export default function TextButton(params) {
 const styles = StyleSheet.create({
     buttonStyle: {
         elevation: 8,
-        backgroundColor: "#04CC89",
         borderRadius: 10,
         paddingVertical: 10,
         paddingHorizontal: 12,
@@ -22,6 +21,6 @@ const styles = StyleSheet.create({
     },
     textStyle: {
         fontSize: 16,
-        color: "#E9E9E9"
+        color: "#04CC89"
     }
 });

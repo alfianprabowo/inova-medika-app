@@ -1,6 +1,6 @@
 import { StyleSheet, View } from "react-native";
 
-export default function ReservationHistoryList(params) {
+export default function ReservationDetail(params) {
     return (
         <View>
 
@@ -10,4 +10,4 @@ export default function ReservationHistoryList(params) {
 
 const styles = StyleSheet.create({
 
-});
+})

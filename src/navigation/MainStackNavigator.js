@@ -2,15 +2,15 @@ import * as React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import RouteConst from '../utils/consts/RouteConst'
-import HomePage from '../pages/HomePage'
+import HomePage from '../pages/Home/HomePage'
 import LoginPage from '../pages/LoginPage'
 import SignUpPage from '../pages/SignUpPage'
-import DoctorSchedulePage from '../pages/DoctorSchedulePage'
-import MedicalHistoryPage from '../pages/MedicalHistoryPage'
-import ProfilePage from '../pages/ProfilePage'
-import ReservationPage from '../pages/ReservationPage'
-import ReservationHistoryPage from '../pages/ReservationHistoryPage'
-import SettingsPage from '../pages/SettingsPage'
+import DoctorSchedulePage from '../pages/DoctorSchedule/DoctorSchedulePage'
+import MedicalHistoryPage from '../pages/History/MedicalHistoryPage'
+import ProfilePage from '../pages/Settings/ProfilePage'
+import ReservationPage from '../pages/Home/ReservationPage'
+import ReservationHistoryPage from '../pages/History/ReservationHistoryPage'
+import SettingsPage from '../pages/Settings/SettingsPage'
 
 const Stack = createNativeStackNavigator()
 
@@ -35,7 +35,9 @@ export default function MainStackNavigator() {
                 <Stack.Screen
                     name={RouteConst.HOME}
                     component={HomePage}
-                // options={{ title: 'Home Screen' }}
+                    options={{
+                        headerBackVisible: false,
+                    }}
                 />
 
                 <Stack.Screen

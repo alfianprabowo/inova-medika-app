@@ -16,6 +16,14 @@
     {
       "path": "src/assets/fonts/AlongSansSemiBold.otf",
       "sha1": "050ddc651c429a2661570d297656cafce84cfddb"
+    },
+    {
+      "path": "src/assets/images/Profile.png",
+      "sha1": "00435581a0f58555ac36276515d0c789db828415"
+    },
+    {
+      "path": "src/assets/images/logo.png",
+      "sha1": "b0b2be4353b253e7cdbee59fb9e07bc3b74288cf"
     }
   ]
 }
